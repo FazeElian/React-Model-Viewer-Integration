@@ -13,7 +13,6 @@ function App() {
 
       {/* Galería de personajes */}
       <CharactersGallery />
-      <CharactersGallery />
     </>
   );
 }

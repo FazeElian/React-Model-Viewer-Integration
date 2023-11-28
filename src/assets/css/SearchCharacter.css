@@ -34,3 +34,18 @@
     transition: .3s;
     opacity: 0.8;
 }
+
+@media(max-width: 425px){
+    .cont-search{
+        margin: 1rem;
+    }
+
+    .cont-search input{
+        width: 50%;
+    }
+
+    .btn-search{
+        width: auto;
+        padding: 10px 1.5rem 10px;
+    }
+}

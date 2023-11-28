@@ -3,3 +3,9 @@
     width: 90%;
     height: auto;
 }
+
+@media (max-width: 425px){
+    .characters-gallery{
+        flex-direction: column;
+    }
+}

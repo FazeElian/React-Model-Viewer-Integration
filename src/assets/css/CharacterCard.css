@@ -64,3 +64,24 @@
     background-color: blue;
     box-sizing: border-box;
   }
+
+
+@media (max-width: 1024px){
+  model-viewer{
+    min-height: 200px;
+    margin: 0;
+  }
+}
+
+@media(max-width: 425px){
+  .cont-card-character{
+    width: 100%;
+    margin: 1rem 1.2rem 1rem;
+    height: auto;
+  }
+
+  model-viewer{
+    margin: 2rem 0 0;
+    min-height: 400px;
+  }
+}
