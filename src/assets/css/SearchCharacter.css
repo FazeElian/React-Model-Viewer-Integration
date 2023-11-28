@@ -1,0 +1,36 @@
+.cont-search{
+    display: flex;
+    width: 100%;
+    height: 35px;
+    margin: 2rem;
+}
+
+.cont-search input{
+    width: 20%;
+    height: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.btn-search{
+    display: flex;
+    width: 130px;
+    height: 100%;
+    padding: 10px;
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1rem 0;
+    color: white;
+}
+
+.btn-search:hover{
+    background-color: greenyellow;
+    border: 1px solid black;
+    transition: .3s;
+    opacity: 0.8;
+}
